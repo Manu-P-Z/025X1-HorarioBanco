@@ -106,7 +106,7 @@ public class Main {
             //Mensajes
             System.out.printf("%s %02d:%02d%n", "El valor determinado aleatoriamente como hora para entrar al banco es:", horaRnd, minRnd);
             //   System.out.printf("%s %b%n%n", "La hora determinada por el valor aleatorio es válida para entrar al banco ....:", banAbr);
-            System.out.printf("Hora Manual ....: %s%n", mAbr >= mAb && mAbr <= mCr ? "Valor aleatorio correcto" : "Valor aleatorio incorrecto");
+            System.out.printf("Hora Aleatoria .: %s%n", mAbr >= mAb && mAbr <= mCr ? "Valor aleatorio correcto" : "Valor aleatorio incorrecto");
             
             
             System.out.printf("%s %02d:%02d%n", "El valor determinado por el usuario como hora para entrar al banco es:", horaUsr, minUsr);
@@ -116,7 +116,7 @@ public class Main {
         } catch (Exception e) {
             System.out.println("Error, parámetro introducido erróneo");
         } finally {
-            SCN.nextLine();
+            
         }
     }
 
